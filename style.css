@@ -1,0 +1,277 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+#logo{
+
+    width: 80px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+.navbar{
+
+    width: 100vw;
+    height: 11vh;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 0.1px solid #d3ad7f;
+
+    align-items: center;
+    position: fixed;
+
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+}
+
+.navbar .top_logo{
+
+    color: white;
+    margin-right: 1000px;
+
+    
+}
+
+.NavElements{
+   
+   width: 75%;
+   position: absolute;
+   margin-left: 1000px;
+   
+}
+
+.NavElements a{
+
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+.NavElements a:hover{
+
+    color: rgb(73, 178, 73);
+}
+
+.NavElements {
+
+    border-radius: 3px;
+}
+
+
+
+.NavElements button{
+
+    width: 150px;
+    height: 70px;
+    color: #29d9d5;
+    border:2px solid  #29d9d5;
+    background-color: rgb(36, 13, 13);
+    border-radius: 25px;
+    font-size: 15px;
+
+    margin-left: 240px;
+}
+
+
+/* -------------------- middle starts ---------------------------- */
+
+.middle{
+    
+    width: 100vw;
+    height: 800px;
+    background-image: url("middle.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.middle2{
+ 
+    width: 100vw;
+    height: 500px;
+
+}
+
+.middle2 h1{
+    
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+
+.middle2 .logo{
+    
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-evenly;
+    
+    
+}
+
+.middle2 .logo_content{
+   
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-evenly;
+    font-weight: 300;
+    
+
+}
+
+
+.middle3{
+
+    width: 100vw;
+    height: 300px;
+    text-align: center;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));;
+
+}
+
+
+.middle3 div h1{
+    
+    color: white;
+    font-size: 3rem;
+    margin-top: 10px;
+    
+}
+
+
+.middle5{
+
+    width: 100vw;
+    height: 300px;
+    text-align: center;
+    background-image: url(middle2_5.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+   
+}
+
+
+.middle5 button{
+
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    font-weight: 700;
+}
+
+.middle5 h1{
+
+    margin-top: 150px;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+
+.footer-clean {
+    padding:50px 0;
+    background-color:#fff;
+    color: white;
+  }
+  
+  .footer-clean h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:14px;
+    color: grey;
+  }
+  
+  .footer-clean ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-clean ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-clean .item.social {
+    text-align:right;
+  }
+  
+  .footer-logo img{
+      width: 10%;
+      margin-bottom: 8%;
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-clean .item.social {
+      text-align:center;
+    }
+  }
+  
+  .footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-clean .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  @media (max-width:991px) {
+    .footer-clean .item.social > a {
+      margin-top:40px;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item.social > a {
+      margin-top:10px;
+    }
+  }
+  
+  .footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+  }
